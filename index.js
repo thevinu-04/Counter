@@ -2,6 +2,7 @@ const decrease = document.getElementById("decrease");
 const increase = document.getElementById("increase");
 const reset = document.getElementById("reset");
 const countlabel= document.getElementById("countlabel");
+const submit = document.getElementById("submit");
 
 
 
@@ -40,7 +41,7 @@ function update(){
 
 }
 
-document.getElementById("submit").onclick= function () {
+submit.onclick= function () {
     timer = setInterval(update, 1000);
   };
 
