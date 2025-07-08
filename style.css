@@ -1,0 +1,29 @@
+#countlabel{
+
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial;
+     
+}
+
+#button{
+    text-align: center;
+}
+
+#submit{
+    background-color: rgb(254, 178, 178);
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: aliceblue;
+    background-color: rgb(209, 169, 109);
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover{
+    background-color: rgb(77, 58, 94);
+}
